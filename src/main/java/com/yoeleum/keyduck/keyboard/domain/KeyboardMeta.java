@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import javax.persistence.Embeddable;
 
 @Embeddable
-public class KeyboardProfile {
+public class KeyboardMeta {
 
     private LocalDateTime releaseDate;
     private String brand;
