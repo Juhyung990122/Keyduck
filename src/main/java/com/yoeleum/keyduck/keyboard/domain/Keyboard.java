@@ -1,5 +1,6 @@
 package com.yoeleum.keyduck.keyboard.domain;
 
+import com.yoeleum.keyduck.keyboard.domain.like.Like;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
@@ -27,4 +28,6 @@ public class Keyboard {
 
     @Embedded
     private KeyboardMeta keyboardMeta;
+
+    private Like like;
 }
